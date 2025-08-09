@@ -42,4 +42,4 @@ test: $(TEST_DIR)/$(TEST_TARGET)
 #clean up build files
 
 clean:
-	rm -f *.o  $(TEST_DIR)/*.o $(TARGET) $(TEST_TARGET)
+	rm -f *.o  $(TEST_DIR)/*.o $(TARGET) $(TEST_TARGET) external/catch2/*.o
